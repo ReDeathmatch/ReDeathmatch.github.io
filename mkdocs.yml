@@ -1,0 +1,111 @@
+# Project information
+site_name: ReDeathmatch
+site_url: https://ReDeathmatch.github.io/
+site_author: Sergey Shorokhov
+site_description: >-
+  Enables deathmatch style (CSDM) gameplay in Counter-Strike 1.6 (respawning, gun selection, spawn protection, etc).
+
+# Repository
+repo_url: https://github.com/ReDeathmatch/ReDeathmatch_AMXX
+repo_name: ReDeathmatch/ReDeathmatch_AMXX
+
+# Copyright
+copyright: Copyright &copy; 2022 - 2024 Sergey Shorokhov
+# Configuration
+theme:
+  name: material
+  custom_dir: docs/overrides
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  font:
+    text: Montserrat
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+    logo: fontawesome/solid/gun
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - navigation.sections
+    - navigation.tabs
+    - navigation.path
+    - navigation.footer
+    - navigation.top
+    - navigation.tracking
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    - header.autohide
+    - content.action.edit
+    - content.action.view
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+  favicon: assets/favicon.png
+
+extra:
+  alternate:
+    - name: 🇺🇸 English
+      link: ''
+      lang: en
+    - name: 🇷🇺 Русский
+      link: ru/
+      lang: ru
+  analytics:
+    provider: google
+    property: G-5RGR2LDNKC
+
+plugins:
+  - blog
+  - search
+
+nav:
+  - 'Overview': 'index.md'
+  - 'Getting started':
+    - 'en/Getting-started/index.md'
+    - 'en/Getting-started/alternatives.md'
+    - 'en/Getting-started/requirements.md'
+    - 'en/Getting-started/installation.md'
+  - 'Customizing':
+    - 'en/Customizing/index.md'
+    - 'en/Customizing/commands.md'
+    - 'en/Customizing/convars.md'
+    - 'en/Customizing/plugins.md'
+  - 'Working with documentation': 'en/Work-with-documentation.md'
+  - '🇷🇺 RU':
+    - 'Обзор': 'ru/index.md'
+    - 'Приступим!':
+      - 'Приступим!': 'ru/Getting-started/index.md'
+      - 'Альтернативы': 'ru/Getting-started/alternatives.md'
+      - 'Требования': 'ru/Getting-started/requirements.md'
+      - 'Установка': 'ru/Getting-started/installation.md'
+    - 'Конфигурация':
+      - 'Конфигурация': 'ru/Customizing/index.md'
+      - 'Команды': 'ru/Customizing/commands.md'
+      - 'Консольные переменные': 'ru/Customizing/convars.md'
+      - 'Набор плагинов': 'ru/Customizing/plugins.md'
+    - 'Работа с документацией': 'ru/Work-with-documentation.md'
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
