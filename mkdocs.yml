@@ -1,7 +1,7 @@
 # Project information
 site_name: ReDeathmatch
 site_url: https://ReDeathmatch.github.io/
-site_author: Sergey Shorokhov
+site_author: wopox1337@ya.ru (Sergey Shorokhov)
 site_description: >-
   Enables deathmatch style (CSDM) gameplay in Counter-Strike 1.6 (respawning, gun selection, spawn protection, etc).
 
@@ -76,6 +76,7 @@ extra:
 plugins:
   - blog
   - search
+  - rss
 
 nav:
   - 'Overview': 'index.md'
