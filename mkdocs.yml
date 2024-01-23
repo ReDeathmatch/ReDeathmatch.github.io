@@ -90,6 +90,10 @@ nav:
     - 'en/Customizing/commands.md'
     - 'en/Customizing/convars.md'
     - 'en/Customizing/plugins.md'
+    - 'Respawn system':
+      - 'About': 'en/Customizing/Spawn-system/index.md'
+      - 'Format description': 'en/Customizing/Spawn-system/systems-compare.md'
+      - 'Convertation': 'en/Customizing/Spawn-system/convertation.md'
   - 'Working with documentation': 'en/Work-with-documentation.md'
   - '🇷🇺 RU':
     - 'Обзор': 'ru/index.md'
@@ -103,6 +107,10 @@ nav:
       - 'Команды': 'ru/Customizing/commands.md'
       - 'Консольные переменные': 'ru/Customizing/convars.md'
       - 'Набор плагинов': 'ru/Customizing/plugins.md'
+      - 'Система спавнов':
+        - 'Введение': 'ru/Customizing/Spawn-system/index.md'
+        - 'Описание форматов': 'ru/Customizing/Spawn-system/systems-compare.md'
+        - 'Конвертирование': 'ru/Customizing/Spawn-system/convertation.md'
     - 'Работа с документацией': 'ru/Work-with-documentation.md'
 
 markdown_extensions:
