@@ -32,8 +32,8 @@ Every config file to be loaded **must** have a valid JSON schema!
 The config file consists of sections:
 
  - equip
-    - primary - Primary weapons (assault rifles, snipers);
-    - secondary - Secondary weapons (guns);
+    - primary - Primary weapons (assault rifles, snipers, simi-pistols);
+    - secondary - Secondary weapons (pistols);
  - cvars - CVars to be changed when turning on Deathmatch mode;
  - modes - The list of rounds modes.
 

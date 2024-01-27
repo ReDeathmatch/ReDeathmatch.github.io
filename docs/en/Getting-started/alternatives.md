@@ -14,7 +14,7 @@ The ReDeathmatch mod is a modern alternative that has active support from the cr
 - Git: [https://github.com/Arkshine/CSDM](https://github.com/Arkshine/CSDM)
 - Forum: [AlliedModders Forum](https://forums.alliedmods.net/forumdisplay.php?f=87)
 
-The original CSDM mod provides a stable and well-functioning foundation. Parts of the mod that consume a lot of CPU resources have been moved to a separate Metamod module (written in C++), which reduces the load. The necessary code for working with AMX Mod X has been extracted into an API. Most of the logic is implemented through AMX Mod X plugins.
+The original CSDM mod provides a stable and well-functioning foundation. Parts of the mod that consume a lot of CPU resources have been moved to a separate Metamod module (written in C++), which reduces the load. The necessary code for working with AMX Mod X has been extracted into an API[^1]. Most of the logic is implemented through AMX Mod X plugins.
 
 This mod is the only option for use with a regular HLDS server to date. It is not compatible with ReGameDLL.
 
@@ -47,3 +47,5 @@ It should be noted that the CSDM ReAPI mod by Vaqtincha does not support multili
 This is an enhanced version of CSDM ReAPI by Vaqtincha, adding multilingual support and partially fixing the respawn system and minor bugs. It brings new functionality and improves integration with ReGameDLL by utilizing its updated features.
 
 Development of this version has been discontinued by the author due to fundamental changes. Work on continuing the mod's concept is being done in ReDeathmatch.
+
+[^1]: API (Application Programming Interface) is a set of methods and rules by which different programs or parts of a program communicate with each other and exchange data. For example, AMXModX uses HLDS API through integration via Metamod API, which provides a multitude of methods to work with the game engine.
