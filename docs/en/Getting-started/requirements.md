@@ -6,6 +6,8 @@ For the correct functioning of the system and its functions you need to have ins
 - Installed [ReAPI](https://github.com/s1lentq/reapi) AMXX module.
 
 ## Check the installed components:
+???+ note
+    The provided component versions are not a requirement, they are considered as an example of outputting information.
 
 ### HLDS version
 
