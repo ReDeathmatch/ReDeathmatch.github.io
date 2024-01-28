@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://ReDeathmatch.github.io/sitemap.xml
